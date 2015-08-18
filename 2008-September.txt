@@ -1,0 +1,20 @@
+From bogdan.marinescu at gmail.com  Wed Sep 10 21:28:25 2008
+From: bogdan.marinescu at gmail.com (Bogdan Marinescu)
+Date: Wed, 10 Sep 2008 22:28:25 +0300
+Subject: [Elua-ann] eLua 0.4.1 released
+Message-ID: <81fbe47d0809101228t25e1f201s2b7603a9b1173096@mail.gmail.com>
+
+Changelog:
+
+* Minor release, its main purpose is to keep in sync with Lua and
+integrate the latest official Lua distribution (5.1.4)
+* Changed the file system structure; now you can build both Lua
+versions (floating point and int only) from the same directory
+* Made the math library configurable using the existent 'platform
+libraries' mechanism
+* The "os" and "package" modules are no longer loaded by Lua, since
+they can't be used anyway. Because of this, the code size of eLua was
+reduced.
+* Project documentation updated
+
+

@@ -1,0 +1,32 @@
+From bogdan.marinescu at gmail.com  Sat Nov  1 22:36:15 2008
+From: bogdan.marinescu at gmail.com (Bogdan Marinescu)
+Date: Sat, 1 Nov 2008 23:36:15 +0200
+Subject: [Elua-ann] [ANN] eLua 0.5 released
+In-Reply-To: <81fbe47d0811011433h3e28bba5xc1d3a4259feaf534@mail.gmail.com>
+References: <81fbe47d0811011433h3e28bba5xc1d3a4259feaf534@mail.gmail.com>
+Message-ID: <81fbe47d0811011436v15bb87e5vbfff9cb8f32694aa@mail.gmail.com>
+
+Hi,
+
+eLua version 0.5 is released! Here's the changelog:
+
+* Added support for STR7 CPUs from ST
+* Added TCP/IP support using the uIP stack
+* Added support for console and shell over TCP/IP instead of serial link
+* Added the "net" module (eLua's interface to TCP/IP functions)
+* Added the "cpu" module (eLua's interface to the target CPU)
+* New samples: morse.lua (Morse code encoder), lhttpd.lua (Lua scripting
+HTTP server)
+* Added support for cross-compiling Lua code (compile on PC, run on target)
+* XMODEM can now receive Lua bytecode in addition to Lua source code
+* The XMODEM buffer is now dynamic (grows as needed) instead of fixed size
+* Project documentation updated
+
+For more details, visit the project webpage at http://elua.berlios.de.
+
+Best,
+Bogdan
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/elua-ann/attachments/20081101/1a8463da/attachment.html>
+

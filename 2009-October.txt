@@ -1,0 +1,39 @@
+From bogdan.marinescu at gmail.com  Thu Oct  8 21:30:19 2009
+From: bogdan.marinescu at gmail.com (Bogdan Marinescu)
+Date: Thu, 8 Oct 2009 22:30:19 +0300
+Subject: [Elua-ann] ANN: eLua 0.6 released
+In-Reply-To: <81fbe47d0910081219l7e994907wab6d485d98921d8a@mail.gmail.com>
+References: <81fbe47d0910081219l7e994907wab6d485d98921d8a@mail.gmail.com>
+Message-ID: <81fbe47d0910081230s4cd42cccycba3a93efb9b1645@mail.gmail.com>
+
+Hi,
+
+After quite a bit of time, we have a new official release (0.6). Please find
+the changes below:
+
+* License changed to MIT
+* Web page and documentation completely redesigned
+* Documentation available offline
+* Added documentation in portuguese
+* Added support for AVR32 CPUs
+* Added support for STM32 Cortex-M3 CPUs
+* Added ADC module with support for moving average filters
+* Added support for multiple toolchains
+* Added an ls (or dir) shell command
+* Added new examples: pong, tetrives, spaceship (games), logo (graphics),
+adcpoll, adcscope (ADC operations)
+* Added the LTR (Lua Tiny RAM) patch
+* ROM FS content can be specified per board now
+* API semantic revisions (old code might not be compatible)
+
+We made this new release public on the same day the Lua workshop started
+(and eLua was presented as part of the workshop), so we're naturally very
+excited about this :) Thank you for all your support.
+You can find all the project documentation at http://www.eluaproject.net
+
+Best regards,
+Bogdan and Dado
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/elua-ann/attachments/20091008/90df10d6/attachment.html>
+
